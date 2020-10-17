@@ -49,7 +49,7 @@ body {
   color: #0b4440;
 }
 .logo h1 {
-  font-size: 4em;
+  font-size: 64px;
   width: 20%;
 }
 
@@ -71,14 +71,14 @@ body {
   color: #0f524f;
   margin-top: 10%;
   font-family: "Product Sans Bold";
-  font-size: 3.8em;
+  font-size: 60px;
 }
 .landhead h1 span {
   color: #0a7069;
 }
 
 .landhead p {
-  font-size: 1.6em;
+  font-size: 26px;
   margin-top: 5%;
   font-family: "Product Sans";
   font-weight: lighter;
@@ -99,12 +99,12 @@ body {
 .problemhead h1 {
   color: white;
   font-family: "Product Sans Bold";
-  font-size: 4.5rem;
+  font-size: 60px;
 }
 .problemhead p {
   font-family: "Product Sans";
   margin-top: 5%;
-  font-size: 1.8rem;
+  font-size: 28px;
   color: rgb(215, 255, 232);
 }
 .third {
@@ -114,16 +114,11 @@ body {
 .aimhead {
   width: 100%;
 }
-.aimhead h1 {
-  color: #0b4440;
-  font-family: "Product Sans Bold";
-  font-size: 4.5rem;
-}
 .aimhead p {
   text-align: center;
   font-family: "Product Sans";
   margin-top: 5%;
-  font-size: 1.8rem;
+  font-size: 28px;
   color: #20a097;
 }
 
@@ -134,7 +129,7 @@ body {
   justify-content: center;
 }
 .card {
-  margin: 1rem;
+  margin: 16px;
   /* border: 8px solid #42ece307;*/
   /*  cursor: pointer;*/
   /* border-radius: 10%;*/
@@ -170,7 +165,7 @@ body {
   padding-right: 7%;
 }
 .subscribe h2 {
-  font-size: 1.6rem;
+  font-size: 26px;
   color: white;
   font-family: "Product Sans";
   font-weight: lighter;
@@ -188,13 +183,13 @@ body {
 
 ::placeholder {
   font-family: "Product Sans";
-  font-size: 1rem;
+  font-size: 16px;
   color: white;
 }
 button {
   cursor: pointer;
   font-family: "Product Sans";
-  font-size: 1rem;
+  font-size: 16px;
   color: #0b4440;
   padding: 10px;
   border: none;
@@ -207,7 +202,7 @@ button {
   flex-direction: row;
 }
 .copy {
-  font-size: 1.2rem;
+  font-size: 20px;
   transform: translateY(-50px);
   font-family: "Product Sans";
   float: right;
@@ -217,7 +212,7 @@ button {
 
 .update {
   padding: 2%;
-  font-size: 1.2rem;
+  font-size: 20px;
   text-align: center;
   padding-left: 7%;
   padding-right: 7%;
@@ -235,9 +230,9 @@ button {
   }
   .logo h1 {
     text-align: center;
-    font-size: 2.6em;
-    padding-top: 2.5rem;
-    padding-bottom: 1.2rem;
+    font-size: 42px;
+    padding-top: 40px;
+    padding-bottom: 20px;
   }
   .landhead {
     width: 80%;
@@ -247,10 +242,10 @@ button {
     font-weight: bolder;
   }
   .landhead h1 {
-    font-size: 2.9em;
+    font-size: 46px;
   }
   .landhead p {
-    font-size: 1.6rem;
+    font-size: 26px;
   }
   .forestdrone {
     padding-top: 15%;
@@ -268,16 +263,16 @@ button {
     margin-top: 35%;
     color: white;
     font-family: "Product Sans Bold";
-    font-size: 3rem;
+    font-size: 48px;
   }
   .problemhead p {
     font-family: "Product Sans";
     margin-top: 5%;
-    font-size: 1.2rem;
+    font-size: 19px;
     color: rgb(215, 255, 232);
   }
   .aimhead p {
-    font-size: 1.2rem;
+    font-size: 19px;
   }
   .container {
     margin-top: 2%;
@@ -286,7 +281,7 @@ button {
     justify-content: center;
   }
   .card {
-    margin: 1rem;
+    margin: 16px;
     /* border: 8px solid #42ece307;*/
     /*  cursor: pointer;*/
     /* border-radius: 10%;*/
@@ -315,7 +310,7 @@ button {
   }
   .copy {
     float: none;
-    font-size: 0.9rem;
+    font-size: 15px;
     transform: none;
     margin-top: 6%;
     margin-left: 7%;
@@ -325,7 +320,7 @@ button {
     margin: 0;
   }
   .subscribe h2 {
-    font-size: 1.3rem;
+    font-size: 21px;
   }
 
   .update {
