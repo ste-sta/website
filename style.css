@@ -160,7 +160,9 @@ body {
 .subscribe {
   padding-top: 5%;
   padding-bottom: 6%;
-  background: #0a7069;
+  background: url(./background-01.png);
+  background-size: cover;
+  background-color: #0a7069;
 }
 
 .subscribe form {
