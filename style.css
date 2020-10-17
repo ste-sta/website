@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0; 
+  border: 1px solid black;*/
+}
+a {
+  text-decoration: none;
+  color: #20a097;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Product Sans"), url("ProductSans-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Product Sans Bold";
+  src: url("./ProductSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SF Old Republic Bold";
+  src: url("./SF\ Old\ Republic\ Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./Gilroy-ExtraBold.otf") format("truetype");
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-size: cover;
+}
+
+.first {
+  height: 100vh;
+  width: 100%;
+  background: url(https://i.imgur.com/DuYHlMX.png);
+  background-size: cover;
+}
+
+.logo {
+  margin-left: 7%;
+  padding-top: 5%;
+  font-family: "Gilroy";
+  color: #0b4440;
+}
+.logo h1 {
+  font-size: 4em;
+  width: 20%;
+}
+
+.forestdrone {
+  margin-right: 7%;
+  margin-top: -5%;
+  width: 35%;
+  float: right;
+}
+
+.landhead {
+  width: 50%;
+  float: left;
+  margin-left: 7%;
+  margin-top: 3%;
+  font-weight: bolder;
+}
+.landhead h1 {
+  color: #0f524f;
+  margin-top: 10%;
+  font-family: "Product Sans Bold";
+  font-size: 4.1em;
+}
+.landhead h1 span {
+  color: #0a7069;
+}
+
+.landhead p {
+  font-size: 1.8em;
+  margin-top: 5%;
+  font-family: "Product Sans";
+  font-weight: lighter;
+  color: #30aa93;
+}
+
+.second {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./background2-01.png);
+  background-size: cover;
+  background-color: #126a5d;
+}
+.problemhead {
+  padding: 7%;
+  width: 40%;
+}
+.problemhead h1 {
+  color: white;
+  font-family: "Product Sans Bold";
+  font-size: 4.5rem;
+}
+.problemhead p {
+  font-family: "Product Sans";
+  margin-top: 5%;
+  font-size: 1.8rem;
+  color: rgb(215, 255, 232);
+}
+.third {
+  padding: 7%;
+  margin: 0;
+}
+.aimhead {
+  width: 100%;
+}
+.aimhead h1 {
+  color: #0b4440;
+  font-family: "Product Sans Bold";
+  font-size: 4.5rem;
+}
+.aimhead p {
+  text-align: center;
+  font-family: "Product Sans";
+  margin-top: 5%;
+  font-size: 1.8rem;
+  color: #20a097;
+}
+
+.container {
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  margin: 1rem;
+  /* border: 8px solid #42ece307;*/
+  /*  cursor: pointer;*/
+  /* border-radius: 10%;*/
+  width: 20%;
+  padding: 50px;
+  /* box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);*/
+  /*  transform-style: preserve-3d;*/
+}
+.card h1 {
+  color: #0b4440;
+  font-family: "Product Sans Bold";
+  transform: translateZ(20px);
+  text-align: center;
+}
+.card img {
+  transform: translateZ(40px);
+  padding-bottom: 50px;
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
+/*responsive shit*/
+@media only screen and (max-width: 850px) {
+  .logo {
+    width: 100%;
+    margin-left: 10%;
+  }
+  .logo h1 {
+    text-align: center;
+    font-size: 2.6em;
+    padding-top: 2.5rem;
+    padding-bottom: 1.2rem;
+  }
+  .landhead {
+    width: 80%;
+    float: none;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-weight: bolder;
+  }
+  .landhead h1 {
+    font-size: 2.9em;
+  }
+  .landhead p {
+    font-size: 1.6rem;
+  }
+  .forestdrone {
+    padding-top: 15%;
+    width: 60%;
+    display: block;
+    margin: auto;
+    float: none;
+  }
+  .problemhead {
+    padding: 10%;
+    padding-top: 50%;
+    width: 80%;
+  }
+  .problemhead h1 {
+    margin-top: 35%;
+    color: white;
+    font-family: "Product Sans Bold";
+    font-size: 3rem;
+  }
+  .problemhead p {
+    font-family: "Product Sans";
+    margin-top: 5%;
+    font-size: 1.2rem;
+    color: rgb(215, 255, 232);
+  }
+  .aimhead p {
+    font-size: 1.2rem;
+  }
+  .container {
+    margin: 0;
+  }
+  .card {
+    margin: 0;
+  }
+}
