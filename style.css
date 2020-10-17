@@ -1,7 +1,7 @@
 * {
   margin: 0;
-  padding: 0; /*
-  border: 1px solid black;*/
+  padding: 0;
+  /*border: 1px solid black;*/
 }
 a {
   text-decoration: none;
@@ -28,6 +28,8 @@ a {
 }
 html {
   scroll-behavior: smooth;
+}
+html {
 }
 body {
   background-size: cover;
@@ -69,7 +71,7 @@ body {
   color: #0f524f;
   margin-top: 10%;
   font-family: "Product Sans Bold";
-  font-size: 4.1em;
+  font-size: 3.8em;
 }
 .landhead h1 span {
   color: #0a7069;
@@ -127,7 +129,6 @@ body {
 
 .container {
   margin-top: 2%;
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -156,10 +157,78 @@ body {
   width: 70%;
 }
 
+.subscribe {
+  padding-top: 5%;
+  padding-bottom: 6%;
+  background: #0a7069;
+}
+
+.subscribe form {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.subscribe h2 {
+  font-size: 1.6rem;
+  color: white;
+  font-family: "Product Sans";
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+.subscribe form input[type="text"] {
+  width: 300px;
+  background-color: #ffffff10;
+  padding: 10px;
+  border: none;
+  border-bottom: 4px solid white;
+  outline: none;
+  color: white;
+}
+
+::placeholder {
+  font-family: "Product Sans";
+  font-size: 1rem;
+  color: white;
+}
+button {
+  cursor: pointer;
+  font-family: "Product Sans";
+  font-size: 1rem;
+  color: #0b4440;
+  padding: 10px;
+  border: none;
+  transition: ease-in-out 0.2s;
+  background-color: white;
+}
+
+.formb {
+  display: flex;
+  flex-direction: row;
+}
+.copy {
+  font-size: 1.2rem;
+  transform: translateY(-50px);
+  font-family: "Product Sans";
+  float: right;
+  margin-right: 7%;
+  color: white;
+}
+
+.update {
+  padding: 2%;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-left: 7%;
+  padding-right: 7%;
+  background: #20a097c2;
+  color: white;
+  font-family: "Product Sans";
+}
+.update span {
+  font-family: "Product Sans Bold";
+}
 /*responsive shit*/
 @media only screen and (max-width: 850px) {
   .logo {
-    width: 100%;
     margin-left: 10%;
   }
   .logo h1 {
@@ -209,9 +278,60 @@ body {
     font-size: 1.2rem;
   }
   .container {
-    margin: 0;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .card {
+    margin: 1rem;
+    /* border: 8px solid #42ece307;*/
+    /*  cursor: pointer;*/
+    /* border-radius: 10%;*/
+    width: 40%;
+    padding: 50px;
+    /* box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);*/
+    /*  transform-style: preserve-3d;*/
+  }
+  .card h1 {
+    color: #0b4440;
+    font-family: "Product Sans Bold";
+    text-align: center;
+  }
+  .card img {
+    transform: translateZ(40px);
+    padding-bottom: 20px;
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+  .subscribe {
+    padding: 10%;
+  }
+  .subscribe form input[type="text"] {
+    width: 140px;
+  }
+  .copy {
+    float: none;
+    font-size: 0.9rem;
+    transform: none;
+    margin-top: 6%;
+    margin-left: 7%;
+  }
+
+  .subscribe {
     margin: 0;
+  }
+  .subscribe h2 {
+    font-size: 1.3rem;
+  }
+
+  .update {
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #20a097;
+    color: white;
+    font-family: "Product Sans";
   }
 }
